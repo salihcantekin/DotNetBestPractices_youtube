@@ -1,3 +1,4 @@
+using BP.Api.BackgroundServices;
 using BP.Api.Extensions;
 using BP.Api.Models;
 using BP.Api.Service;
@@ -48,6 +49,8 @@ namespace BP.Api
                 config.BaseAddress = new Uri("http://www.garanti.com");
                 config.DefaultRequestHeaders.Add("Authorization", "Bearer 12121212");
             });
+
+            services.AddHostedService<DateTimeLogWriter>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
