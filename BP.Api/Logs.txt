@@ -1,0 +1,130 @@
+2021-04-16 20:51:44.235 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-16 20:51:44.249 +03:00 [INF] Hosting environment: Test
+2021-04-16 20:51:44.251 +03:00 [INF] Content root path: C:\Youtube\.Net Tutorial\DotnetCoreBestPractices\BP\BP\BP.Api
+2021-04-16 20:51:44.257 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44366/weatherforecast  
+2021-04-16 20:51:44.291 +03:00 [INF] The response could not be cached for this request.
+2021-04-16 20:51:44.307 +03:00 [INF] Request finished in 53.2461ms 404 
+2021-04-16 20:51:53.070 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44366/api/contact  
+2021-04-16 20:51:53.076 +03:00 [INF] Executing endpoint 'BP.Api.Controllers.ContactController.Get (BP.Api)'
+2021-04-16 20:51:53.110 +03:00 [INF] Route matched with {action = "Get", controller = "Contact"}. Executing controller action with signature System.String Get() on controller BP.Api.Controllers.ContactController (BP.Api).
+2021-04-16 20:51:53.115 +03:00 [INF] LogInformation -> Get Method is called
+2021-04-16 20:51:53.116 +03:00 [WRN] LogWarning -> Get Method is called
+2021-04-16 20:51:53.117 +03:00 [ERR] LogError -> Get Method is called
+2021-04-16 20:51:53.121 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-04-16 20:51:53.131 +03:00 [INF] Executed action BP.Api.Controllers.ContactController.Get (BP.Api) in 16.3392ms
+2021-04-16 20:51:53.133 +03:00 [INF] Executed endpoint 'BP.Api.Controllers.ContactController.Get (BP.Api)'
+2021-04-16 20:51:53.135 +03:00 [INF] The response could not be cached for this request.
+2021-04-16 20:51:53.137 +03:00 [INF] Request finished in 67.4443ms 200 text/plain; charset=utf-8
+2021-04-16 20:51:53.167 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44366/favicon.ico  
+2021-04-16 20:51:53.168 +03:00 [INF] The response could not be cached for this request.
+2021-04-16 20:51:53.170 +03:00 [INF] Request finished in 3.6261ms 404 
+2021-04-16 20:51:54.719 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44366/api/contact  
+2021-04-16 20:51:54.721 +03:00 [INF] Executing endpoint 'BP.Api.Controllers.ContactController.Get (BP.Api)'
+2021-04-16 20:51:54.722 +03:00 [INF] Route matched with {action = "Get", controller = "Contact"}. Executing controller action with signature System.String Get() on controller BP.Api.Controllers.ContactController (BP.Api).
+2021-04-16 20:51:54.724 +03:00 [INF] LogInformation -> Get Method is called
+2021-04-16 20:51:54.725 +03:00 [WRN] LogWarning -> Get Method is called
+2021-04-16 20:51:54.727 +03:00 [ERR] LogError -> Get Method is called
+2021-04-16 20:51:54.728 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-04-16 20:51:54.731 +03:00 [INF] Executed action BP.Api.Controllers.ContactController.Get (BP.Api) in 7.6148ms
+2021-04-16 20:51:54.733 +03:00 [INF] Executed endpoint 'BP.Api.Controllers.ContactController.Get (BP.Api)'
+2021-04-16 20:51:54.734 +03:00 [INF] The response could not be cached for this request.
+2021-04-16 20:51:54.736 +03:00 [INF] Request finished in 17.5217ms 200 text/plain; charset=utf-8
+2021-04-16 20:51:54.905 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44366/api/contact  
+2021-04-16 20:51:54.907 +03:00 [INF] Executing endpoint 'BP.Api.Controllers.ContactController.Get (BP.Api)'
+2021-04-16 20:51:54.909 +03:00 [INF] Route matched with {action = "Get", controller = "Contact"}. Executing controller action with signature System.String Get() on controller BP.Api.Controllers.ContactController (BP.Api).
+2021-04-16 20:51:54.911 +03:00 [INF] LogInformation -> Get Method is called
+2021-04-16 20:51:54.912 +03:00 [WRN] LogWarning -> Get Method is called
+2021-04-16 20:51:54.913 +03:00 [ERR] LogError -> Get Method is called
+2021-04-16 20:51:54.915 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-04-16 20:51:54.917 +03:00 [INF] Executed action BP.Api.Controllers.ContactController.Get (BP.Api) in 6.7374ms
+2021-04-16 20:51:54.918 +03:00 [INF] Executed endpoint 'BP.Api.Controllers.ContactController.Get (BP.Api)'
+2021-04-16 20:51:54.920 +03:00 [INF] The response could not be cached for this request.
+2021-04-16 20:51:54.921 +03:00 [INF] Request finished in 15.9781ms 200 text/plain; charset=utf-8
+2021-04-16 20:51:55.091 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44366/api/contact  
+2021-04-16 20:51:55.093 +03:00 [INF] Executing endpoint 'BP.Api.Controllers.ContactController.Get (BP.Api)'
+2021-04-16 20:51:55.095 +03:00 [INF] Route matched with {action = "Get", controller = "Contact"}. Executing controller action with signature System.String Get() on controller BP.Api.Controllers.ContactController (BP.Api).
+2021-04-16 20:51:55.097 +03:00 [INF] LogInformation -> Get Method is called
+2021-04-16 20:51:55.098 +03:00 [WRN] LogWarning -> Get Method is called
+2021-04-16 20:51:55.100 +03:00 [ERR] LogError -> Get Method is called
+2021-04-16 20:51:55.101 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-04-16 20:51:55.103 +03:00 [INF] Executed action BP.Api.Controllers.ContactController.Get (BP.Api) in 6.9033ms
+2021-04-16 20:51:55.105 +03:00 [INF] Executed endpoint 'BP.Api.Controllers.ContactController.Get (BP.Api)'
+2021-04-16 20:51:55.106 +03:00 [INF] The response could not be cached for this request.
+2021-04-16 20:51:55.108 +03:00 [INF] Request finished in 16.661ms 200 text/plain; charset=utf-8
+2021-04-16 20:51:55.274 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44366/api/contact  
+2021-04-16 20:51:55.276 +03:00 [INF] Executing endpoint 'BP.Api.Controllers.ContactController.Get (BP.Api)'
+2021-04-16 20:51:55.277 +03:00 [INF] Route matched with {action = "Get", controller = "Contact"}. Executing controller action with signature System.String Get() on controller BP.Api.Controllers.ContactController (BP.Api).
+2021-04-16 20:51:55.279 +03:00 [INF] LogInformation -> Get Method is called
+2021-04-16 20:51:55.280 +03:00 [WRN] LogWarning -> Get Method is called
+2021-04-16 20:51:55.282 +03:00 [ERR] LogError -> Get Method is called
+2021-04-16 20:51:55.283 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-04-16 20:51:55.285 +03:00 [INF] Executed action BP.Api.Controllers.ContactController.Get (BP.Api) in 6.1525ms
+2021-04-16 20:51:55.286 +03:00 [INF] Executed endpoint 'BP.Api.Controllers.ContactController.Get (BP.Api)'
+2021-04-16 20:51:55.288 +03:00 [INF] The response could not be cached for this request.
+2021-04-16 20:51:55.289 +03:00 [INF] Request finished in 15.2616ms 200 text/plain; charset=utf-8
+2021-04-16 20:51:55.436 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44366/api/contact  
+2021-04-16 20:51:55.438 +03:00 [INF] Executing endpoint 'BP.Api.Controllers.ContactController.Get (BP.Api)'
+2021-04-16 20:51:55.440 +03:00 [INF] Route matched with {action = "Get", controller = "Contact"}. Executing controller action with signature System.String Get() on controller BP.Api.Controllers.ContactController (BP.Api).
+2021-04-16 20:51:55.441 +03:00 [INF] LogInformation -> Get Method is called
+2021-04-16 20:51:55.442 +03:00 [WRN] LogWarning -> Get Method is called
+2021-04-16 20:51:55.444 +03:00 [ERR] LogError -> Get Method is called
+2021-04-16 20:51:55.445 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-04-16 20:51:55.448 +03:00 [INF] Executed action BP.Api.Controllers.ContactController.Get (BP.Api) in 6.9558ms
+2021-04-16 20:51:55.450 +03:00 [INF] Executed endpoint 'BP.Api.Controllers.ContactController.Get (BP.Api)'
+2021-04-16 20:51:55.451 +03:00 [INF] The response could not be cached for this request.
+2021-04-16 20:51:55.453 +03:00 [INF] Request finished in 16.2568ms 200 text/plain; charset=utf-8
+2021-04-16 20:51:55.596 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44366/api/contact  
+2021-04-16 20:51:55.598 +03:00 [INF] Executing endpoint 'BP.Api.Controllers.ContactController.Get (BP.Api)'
+2021-04-16 20:51:55.600 +03:00 [INF] Route matched with {action = "Get", controller = "Contact"}. Executing controller action with signature System.String Get() on controller BP.Api.Controllers.ContactController (BP.Api).
+2021-04-16 20:51:55.601 +03:00 [INF] LogInformation -> Get Method is called
+2021-04-16 20:51:55.603 +03:00 [WRN] LogWarning -> Get Method is called
+2021-04-16 20:51:55.604 +03:00 [ERR] LogError -> Get Method is called
+2021-04-16 20:51:55.606 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-04-16 20:51:55.609 +03:00 [INF] Executed action BP.Api.Controllers.ContactController.Get (BP.Api) in 7.2342ms
+2021-04-16 20:51:55.610 +03:00 [INF] Executed endpoint 'BP.Api.Controllers.ContactController.Get (BP.Api)'
+2021-04-16 20:51:55.611 +03:00 [INF] The response could not be cached for this request.
+2021-04-16 20:51:55.613 +03:00 [INF] Request finished in 17.1126ms 200 text/plain; charset=utf-8
+2021-04-16 20:51:55.754 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44366/api/contact  
+2021-04-16 20:51:55.756 +03:00 [INF] Executing endpoint 'BP.Api.Controllers.ContactController.Get (BP.Api)'
+2021-04-16 20:51:55.757 +03:00 [INF] Route matched with {action = "Get", controller = "Contact"}. Executing controller action with signature System.String Get() on controller BP.Api.Controllers.ContactController (BP.Api).
+2021-04-16 20:51:55.759 +03:00 [INF] LogInformation -> Get Method is called
+2021-04-16 20:51:55.760 +03:00 [WRN] LogWarning -> Get Method is called
+2021-04-16 20:51:55.761 +03:00 [ERR] LogError -> Get Method is called
+2021-04-16 20:51:55.763 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-04-16 20:51:55.766 +03:00 [INF] Executed action BP.Api.Controllers.ContactController.Get (BP.Api) in 6.9266ms
+2021-04-16 20:51:55.767 +03:00 [INF] Executed endpoint 'BP.Api.Controllers.ContactController.Get (BP.Api)'
+2021-04-16 20:51:55.768 +03:00 [INF] The response could not be cached for this request.
+2021-04-16 20:51:55.770 +03:00 [INF] Request finished in 15.6663ms 200 text/plain; charset=utf-8
+2021-04-16 20:51:55.889 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44366/api/contact  
+2021-04-16 20:51:55.891 +03:00 [INF] Executing endpoint 'BP.Api.Controllers.ContactController.Get (BP.Api)'
+2021-04-16 20:51:55.892 +03:00 [INF] Route matched with {action = "Get", controller = "Contact"}. Executing controller action with signature System.String Get() on controller BP.Api.Controllers.ContactController (BP.Api).
+2021-04-16 20:51:55.894 +03:00 [INF] LogInformation -> Get Method is called
+2021-04-16 20:51:55.895 +03:00 [WRN] LogWarning -> Get Method is called
+2021-04-16 20:51:55.897 +03:00 [ERR] LogError -> Get Method is called
+2021-04-16 20:51:55.899 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-04-16 20:51:55.900 +03:00 [INF] Executed action BP.Api.Controllers.ContactController.Get (BP.Api) in 6.4916ms
+2021-04-16 20:51:55.902 +03:00 [INF] Executed endpoint 'BP.Api.Controllers.ContactController.Get (BP.Api)'
+2021-04-16 20:51:55.903 +03:00 [INF] The response could not be cached for this request.
+2021-04-16 20:51:55.905 +03:00 [INF] Request finished in 15.9728ms 200 text/plain; charset=utf-8
+2021-04-16 20:51:56.041 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44366/api/contact  
+2021-04-16 20:51:56.043 +03:00 [INF] Executing endpoint 'BP.Api.Controllers.ContactController.Get (BP.Api)'
+2021-04-16 20:51:56.045 +03:00 [INF] Route matched with {action = "Get", controller = "Contact"}. Executing controller action with signature System.String Get() on controller BP.Api.Controllers.ContactController (BP.Api).
+2021-04-16 20:51:56.046 +03:00 [INF] LogInformation -> Get Method is called
+2021-04-16 20:51:56.048 +03:00 [WRN] LogWarning -> Get Method is called
+2021-04-16 20:51:56.049 +03:00 [ERR] LogError -> Get Method is called
+2021-04-16 20:51:56.051 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-04-16 20:51:56.053 +03:00 [INF] Executed action BP.Api.Controllers.ContactController.Get (BP.Api) in 6.8382ms
+2021-04-16 20:51:56.055 +03:00 [INF] Executed endpoint 'BP.Api.Controllers.ContactController.Get (BP.Api)'
+2021-04-16 20:51:56.056 +03:00 [INF] The response could not be cached for this request.
+2021-04-16 20:51:56.058 +03:00 [INF] Request finished in 16.9347ms 200 text/plain; charset=utf-8
+2021-04-16 20:51:56.228 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44366/api/contact  
+2021-04-16 20:51:56.230 +03:00 [INF] Executing endpoint 'BP.Api.Controllers.ContactController.Get (BP.Api)'
+2021-04-16 20:51:56.231 +03:00 [INF] Route matched with {action = "Get", controller = "Contact"}. Executing controller action with signature System.String Get() on controller BP.Api.Controllers.ContactController (BP.Api).
+2021-04-16 20:51:56.233 +03:00 [INF] LogInformation -> Get Method is called
+2021-04-16 20:51:56.234 +03:00 [WRN] LogWarning -> Get Method is called
+2021-04-16 20:51:56.236 +03:00 [ERR] LogError -> Get Method is called
+2021-04-16 20:51:56.238 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-04-16 20:51:56.240 +03:00 [INF] Executed action BP.Api.Controllers.ContactController.Get (BP.Api) in 7.1868ms
+2021-04-16 20:51:56.242 +03:00 [INF] Executed endpoint 'BP.Api.Controllers.ContactController.Get (BP.Api)'
+2021-04-16 20:51:56.243 +03:00 [INF] The response could not be cached for this request.
+2021-04-16 20:51:56.245 +03:00 [INF] Request finished in 16.9875ms 200 text/plain; charset=utf-8

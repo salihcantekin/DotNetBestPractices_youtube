@@ -3,6 +3,7 @@ using BP.Api.Service;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,16 +17,24 @@ namespace BP.Api.Controllers
     {
         private readonly IConfiguration configuration;
         private readonly IContactService contactService;
+        private readonly ILogger<ContactController> logger;
 
-        public ContactController(IConfiguration Configuration, IContactService ContactService)
+        public ContactController(IConfiguration Configuration, IContactService ContactService, ILogger<ContactController> logger)
         {
             configuration = Configuration;
             contactService = ContactService;
+            this.logger = logger;
         }
 
         [HttpGet]
         public String Get()
         {
+            logger.LogTrace("LogTrace -> Get Method is called");
+            logger.LogDebug("LogDebug -> Get Method is called");
+            logger.LogInformation("LogInformation -> Get Method is called");
+            logger.LogWarning("LogWarning -> Get Method is called");
+            logger.LogError("LogError -> Get Method is called");
+
             return configuration["ReadMe"].ToString();
         }
 

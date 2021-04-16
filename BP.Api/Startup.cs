@@ -1,5 +1,6 @@
 using BP.Api.BackgroundServices;
 using BP.Api.Extensions;
+using BP.Api.Loging;
 using BP.Api.Models;
 using BP.Api.Service;
 using BP.Api.Validations;
@@ -51,6 +52,8 @@ namespace BP.Api
             });
 
             services.AddHostedService<DateTimeLogWriter>();
+
+            services.AddLogging();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
